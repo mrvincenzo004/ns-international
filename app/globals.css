@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  /* NS International Brand Colors */
+  --color-primary: #0B1F3A;
+  --color-secondary: #1236D8;
+  --color-accent: #B51217;
+  --color-highlight: #F39A19;
+
+  /* UI Colors */
+  --color-background: #FFFFFF;
+  --color-surface: #F5F7FA;
+  --color-foreground: #172033;
+  --color-muted: #64748B;
+  --color-border: #E2E8F0;
+}
