@@ -17,7 +17,6 @@ const products = [
     category: "Water Treatment & RO",
     description:
       "Industrial reverse osmosis water treatment system designed for reliable and efficient water purification.",
-    price: "Rs. 850,000",
     images: ["/products/water-treatment-plant.jpg"],
     specifications: [
       {
@@ -62,7 +61,6 @@ const products = [
     category: "Water Bottling",
     description:
       "Efficient bottle filling equipment designed for commercial and industrial water bottling operations.",
-    price: "Rs. 650,000",
     images: ["/products/water-bottle-filling-machine.jpg"],
     specifications: [
       {
@@ -103,7 +101,6 @@ const products = [
     category: "Water Bottling",
     description:
       "PET bottle blowing machinery for producing quality plastic bottles for water and beverage production.",
-    price: "Rs. 1,200,000",
     images: ["/products/water-bottle-blowing-machine.jpg"],
     specifications: [
       {
@@ -144,7 +141,6 @@ const products = [
     category: "Juice & Beverage",
     description:
       "Complete juice processing machinery for efficient beverage preparation and production.",
-    price: "Rs. 1,500,000",
     images: ["/products/juice-plant.jpg"],
     specifications: [
       {
@@ -181,7 +177,6 @@ const products = [
     category: "Juice & Beverage",
     description:
       "Industrial beverage production equipment for preparing and processing carbonated soft drinks.",
-    price: "Rs. 1,800,000",
     images: ["/products/cold-drink-plant.jpg"],
     specifications: [
       {
@@ -218,7 +213,6 @@ const products = [
     category: "Packaging",
     description:
       "Industrial wrapping equipment for efficient and consistent packaging of products.",
-    price: "Rs. 450,000",
     images: ["/products/wrapping-machine.jpg"],
     specifications: [
       {
@@ -255,7 +249,6 @@ const products = [
     category: "Plastic Machinery",
     description:
       "Industrial plastic injection moulding machinery for manufacturing high-quality plastic components.",
-    price: "Rs. 2,000,000",
     images: ["/products/injection-moulding-machine.jpg"],
     specifications: [
       {
@@ -287,6 +280,51 @@ const products = [
       "Easy operation",
       "Technical support available",
     ],
+  },
+  {
+    id: "8",
+    name: "Bottle Labeling Machine",
+    slug: "bottle-labeling-machine",
+    category: "Packaging",
+    description: "Automatic labeling equipment for accurate and consistent beverage bottle packaging.",
+    images: ["/products/water-bottle-filling-machine.jpg"],
+    specifications: [
+      { label: "Machine Type", value: "Automatic Bottle Labeler" },
+      { label: "Application", value: "Bottle Packaging" },
+      { label: "Operation", value: "Automatic" },
+      { label: "Installation", value: "Available" },
+    ],
+    features: ["Accurate label placement", "Consistent packaging", "Easy operation", "Reliable performance", "Industrial construction", "Installation support available"],
+  },
+  {
+    id: "9",
+    name: "Water Pouch Packing Machine",
+    slug: "water-pouch-packing-machine",
+    category: "Packaging",
+    description: "Automatic pouch filling and sealing machinery for hygienic packaged drinking water.",
+    images: ["/products/water-treatment-plant.jpg"],
+    specifications: [
+      { label: "Machine Type", value: "Automatic Pouch Packing Machine" },
+      { label: "Application", value: "Packaged Drinking Water" },
+      { label: "Operation", value: "Automatic" },
+      { label: "Installation", value: "Available" },
+    ],
+    features: ["Hygienic filling", "Automatic sealing", "Efficient production", "Compact design", "Easy maintenance", "Technical support available"],
+  },
+  {
+    id: "10",
+    name: "Beverage Mixing Tank",
+    slug: "beverage-mixing-tank",
+    category: "Juice & Beverage",
+    description: "Stainless steel mixing equipment for consistent juice and beverage preparation.",
+    images: ["/products/juice-plant.jpg"],
+    specifications: [
+      { label: "Machine Type", value: "Stainless Steel Mixing Tank" },
+      { label: "Application", value: "Juice and Beverage Production" },
+      { label: "Material", value: "Stainless Steel 304" },
+      { label: "Installation", value: "Available" },
+    ],
+    features: ["Uniform mixing", "Food-grade construction", "Reliable operation", "Easy cleaning", "Suitable for commercial production", "Installation support available"],
   },
 ];
 
@@ -328,7 +366,6 @@ export default async function ProductPage({
               name={product.name}
               category={product.category}
               description={product.description}
-              price={product.price}
               slug={product.slug}
             />
           </div>

@@ -5,22 +5,22 @@ const methods = [
     icon: Phone,
     title: "Call Us",
     description: "Speak directly with our sales team.",
-    action: "Call Now",
-    href: "tel:+97798XXXXXXXX",
+    action: "+977 984-9719360",
+    href: "tel:+9779849719360",
   },
   {
     icon: MessageCircle,
     title: "WhatsApp",
     description: "Send us your machinery requirements.",
     action: "Chat on WhatsApp",
-    href: "https://wa.me/97798XXXXXXXX",
+    href: "https://wa.me/9779849719360",
   },
   {
     icon: Mail,
     title: "Email Us",
     description: "Send us a detailed inquiry.",
     action: "Send Email",
-    href: "mailto:info@nsinternationalmachinery.com",
+    href: "mailto:chaudharyshyam800@gmail.com ",
   },
 ];
 
@@ -66,7 +66,9 @@ export default function ContactMethods() {
 
                 <a
                   href={method.href}
-                  target={method.href.startsWith("http") ? "_blank" : undefined}
+                  target={
+                    method.href.startsWith("http") ? "_blank" : undefined
+                  }
                   rel={
                     method.href.startsWith("http")
                       ? "noopener noreferrer"

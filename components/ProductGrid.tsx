@@ -8,7 +8,6 @@ const products: Product[] = [
     category: "Water Treatment & RO",
     description:
       "Industrial reverse osmosis water treatment system designed for reliable and efficient water purification.",
-    price: "Rs. 850,000",
     image: "/products/water-treatment-plant.jpg",
   },
   {
@@ -18,7 +17,6 @@ const products: Product[] = [
     category: "Water Bottling",
     description:
       "Efficient bottle filling equipment designed for commercial and industrial water bottling operations.",
-    price: "Rs. 650,000",
     image: "/products/water-bottle-filling-machine.jpg",
   },
   {
@@ -28,7 +26,6 @@ const products: Product[] = [
     category: "Water Bottling",
     description:
       "PET bottle blowing machinery for producing quality plastic bottles for water and beverage production.",
-    price: "Rs. 1,200,000",
     image: "/products/water-bottle-blowing-machine.jpg",
   },
   {
@@ -38,7 +35,6 @@ const products: Product[] = [
     category: "Juice & Beverage",
     description:
       "Complete juice processing machinery for efficient beverage preparation and production.",
-    price: "Rs. 1,500,000",
     image: "/products/juice-plant.jpg",
   },
   {
@@ -48,7 +44,6 @@ const products: Product[] = [
     category: "Juice & Beverage",
     description:
       "Industrial beverage production equipment for preparing and processing carbonated soft drinks.",
-    price: "Rs. 1,800,000",
     image: "/products/cold-drink-plant.jpg",
   },
   {
@@ -58,7 +53,6 @@ const products: Product[] = [
     category: "Packaging",
     description:
       "Industrial wrapping equipment for efficient and consistent packaging of products.",
-    price: "Rs. 450,000",
     image: "/products/wrapping-machine.jpeg",
   },
   {
@@ -68,8 +62,31 @@ const products: Product[] = [
     category: "Plastic Machinery",
     description:
       "Industrial plastic injection moulding machinery for manufacturing high-quality plastic components.",
-    price: "Rs. 2,000,000",
     image: "/products/injection-moulding-machine.jpg",
+  },
+  {
+    id: "8",
+    name: "Bottle Labeling Machine",
+    slug: "bottle-labeling-machine",
+    category: "Packaging",
+    description: "Automatic labeling equipment for accurate and consistent beverage bottle packaging.",
+    image: "/products/water-bottle-filling-machine.jpg",
+  },
+  {
+    id: "9",
+    name: "Water Pouch Packing Machine",
+    slug: "water-pouch-packing-machine",
+    category: "Packaging",
+    description: "Automatic pouch filling and sealing machinery for hygienic packaged drinking water.",
+    image: "/products/water-treatment-plant.jpg",
+  },
+  {
+    id: "10",
+    name: "Beverage Mixing Tank",
+    slug: "beverage-mixing-tank",
+    category: "Juice & Beverage",
+    description: "Stainless steel mixing equipment for consistent juice and beverage preparation.",
+    image: "/products/juice-plant.jpg",
   },
 ];
 

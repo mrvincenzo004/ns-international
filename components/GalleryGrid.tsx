@@ -2,78 +2,58 @@ import GalleryItem, { type GalleryItemData } from "./GalleryItem";
 
 const galleryItems: GalleryItemData[] = [
   {
-    id: "1",
-    title: "RO Plant Installation",
-    category: "Installation",
-    type: "image",
-    src: "/gallery/ro-plant-installation.png",
-    description:
-      "Installation and setup of an industrial RO water treatment system.",
-  },
-  {
-    id: "2",
-    title: "Water Bottling Machine",
-    category: "Machinery",
-    type: "image",
-    src: "/gallery/water-bottling-machine.jpg",
-    description:
-      "Industrial water bottle filling machinery supplied for commercial production.",
-  },
-  {
-    id: "3",
-    title: "Bottle Filling Machine Operation",
+    id: "9",
+    title: "Carbonated Beverage Filling Machine",
     category: "Videos",
-    type: "video",
-    src: "/gallery/bottle-filling-machine.mp4",
-    thumbnail: "/gallery/bottle-filling-machine-thumbnail.jpg",
+    type: "youtube",
+    src: "https://www.youtube.com/embed/c2RDfty2TYg",
     description:
-      "Demonstration of an industrial bottle filling machine in operation.",
+      "NS International Carbonated Beverage Filling Machine for hygienic, precise, and efficient soft drink and sparkling beverage production.",
   },
   {
-    id: "4",
-    title: "Juice Plant Installation",
-    category: "Installation",
-    type: "image",
-    src: "/gallery/juice-plant-installation.jpg",
-    description:
-      "Juice processing machinery installation and production line setup.",
-  },
-  {
-    id: "5",
-    title: "Completed Water Treatment Project",
-    category: "Projects",
-    type: "image",
-    src: "/gallery/water-treatment-project.jpg",
-    description:
-      "Completed water treatment and production system installation.",
-  },
-  {
-    id: "6",
-    title: "Machine Maintenance",
-    category: "Maintenance",
-    type: "image",
-    src: "/gallery/machine-maintenance.jpg",
-    description:
-      "Technical maintenance and servicing of industrial machinery.",
-  },
-  {
-    id: "7",
-    title: "PET Bottle Blowing Machine",
-    category: "Machinery",
-    type: "image",
-    src: "/gallery/pet-bottle-blowing-machine.jpg",
-    description:
-      "PET bottle blowing machinery for water and beverage production.",
-  },
-  {
-    id: "8",
-    title: "Production Line Demonstration",
+    id: "10",
+    title: "Injection Moulding Machine",
     category: "Videos",
-    type: "video",
-    src: "/gallery/production-line.mp4",
-    thumbnail: "/gallery/production-line-thumbnail.jpg",
+    type: "youtube",
+    src: "https://www.youtube.com/embed/5TZX1-u6bj0",
     description:
-      "Production line demonstration showing machinery operation and workflow.",
+      "NS International Injection Moulding Machine for precise, reliable, and efficient plastic product manufacturing.",
+  },
+  {
+    id: "11",
+    title: "Water Bottle Filling Machine",
+    category: "Videos",
+    type: "youtube",
+    src: "https://www.youtube.com/embed/HX9fOE0gv_o",
+    description:
+      "NS International Water Bottle Filling Machine for fast, hygienic, and efficient bottled water production.",
+  },
+  {
+    id: "12",
+    title: "Injection Moulding Machine",
+    category: "Videos",
+    type: "youtube",
+    src: "https://www.youtube.com/embed/O5I_EkjZ6zk",
+    description:
+      "NS International Injection Moulding Machine for bottle caps, containers, fittings, and industrial plastic components.",
+  },
+  {
+    id: "13",
+    title: "Automatic Label Applicator Machine",
+    category: "Videos",
+    type: "youtube",
+    src: "https://www.youtube.com/embed/0PnlWRWeP98",
+    description:
+      "NS International Automatic Label Applicator Machine for fast, accurate, and consistent bottle and container labeling.",
+  },
+  {
+    id: "14",
+    title: "Water Bottle Filling Machine",
+    category: "Videos",
+    type: "youtube",
+    src: "https://www.youtube.com/embed/KroAhnBzjcY",
+    description:
+      "NS International Water Bottle Filling Machine for accurate, hygienic, and reliable mineral and packaged drinking water production.",
   },
 ];
 

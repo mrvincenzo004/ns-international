@@ -27,11 +27,6 @@ const faqs = [
       "Machine configuration and specifications can vary depending on production capacity, product requirements, available space, and other project requirements. Contact us to discuss your specific needs.",
   },
   {
-    question: "How is the estimated price determined?",
-    answer:
-      "The displayed price is an estimated price. Final pricing depends on machine specifications, production capacity, configuration, installation requirements, and other project factors.",
-  },
-  {
     question: "Do you provide technical support after installation?",
     answer:
       "Yes. We provide technical support for machinery operation, troubleshooting, maintenance, and other equipment-related requirements.",

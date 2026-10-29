@@ -4,7 +4,6 @@ type ProductInformationProps = {
   name: string;
   category: string;
   description: string;
-  price: string;
   slug: string;
 };
 
@@ -12,7 +11,6 @@ export default function ProductInformation({
   name,
   category,
   description,
-  price,
   slug,
 }: ProductInformationProps) {
   return (
@@ -31,16 +29,15 @@ export default function ProductInformation({
 
       <div className="mt-8 border-y border-border py-6">
         <p className="text-xs font-medium uppercase tracking-wide text-muted">
-          Estimated Price
+          Warranty
         </p>
 
         <p className="mt-2 text-2xl font-bold text-foreground">
-          {price}
+          1 Year Warranty
         </p>
 
         <p className="mt-2 text-sm text-muted">
-          Final pricing may vary depending on machine configuration,
-          capacity, installation, and requirements.
+          Every machine includes a one-year warranty. Contact us for a tailored quotation.
         </p>
       </div>
 

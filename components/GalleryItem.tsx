@@ -1,10 +1,8 @@
-import { Play } from "lucide-react";
-
 export type GalleryItemData = {
   id: string;
   title: string;
   category: string;
-  type: "image" | "video";
+  type: "image" | "youtube";
   src: string;
   thumbnail?: string;
   description?: string;
@@ -25,26 +23,14 @@ export default function GalleryItem({ item }: GalleryItemProps) {
             className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
           />
         ) : (
-          <>
-            <video
-              src={item.src}
-              poster={item.thumbnail}
-              muted
-              playsInline
-              preload="metadata"
-              className="h-full w-full object-cover"
-            />
-
-            <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-primary/10">
-              <div className="flex h-14 w-14 items-center justify-center rounded-full bg-white/95 text-secondary shadow-lg">
-                <Play
-                  size={22}
-                  fill="currentColor"
-                  className="ml-0.5"
-                />
-              </div>
-            </div>
-          </>
+          <iframe
+            src={item.src}
+            title={item.title}
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+            className="h-full w-full"
+          />
         )}
 
         <div className="absolute left-3 top-3">

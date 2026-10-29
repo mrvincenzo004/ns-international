@@ -6,7 +6,6 @@ export type Product = {
   slug: string;
   category: string;
   description: string;
-  price: string;
   image: string;
 };
 
@@ -42,14 +41,8 @@ export default function ProductCard({ product }: ProductCardProps) {
           {product.description}
         </p>
 
-        <div className="mt-5 border-t border-border pt-4">
-          <p className="text-xs font-medium uppercase tracking-wide text-muted">
-            Estimated Price
-          </p>
-
-          <p className="mt-1 text-lg font-bold text-foreground">
-            {product.price}
-          </p>
+        <div className="mt-5 border-t border-border pt-4 text-sm font-medium text-muted">
+          <span>1 Year Warranty</span>
         </div>
 
         <Link

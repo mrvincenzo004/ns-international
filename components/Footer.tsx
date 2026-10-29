@@ -9,8 +9,6 @@ const quickLinks = [
 ];
 
 const phoneNumbers = [
-  "9867164689",
-  "9821582046",
   "9849719360",
   "9800680330",
 ];
@@ -77,7 +75,7 @@ export default function Footer() {
                 href="mailto:n_s_int_machinery022@gmail.com"
                 className="block break-words transition-colors hover:text-highlight"
               >
-                n_s_int_machinery022@gmail.com
+                chaudharyshyam800@gmail.com 
               </a>
             </div>
           </div>

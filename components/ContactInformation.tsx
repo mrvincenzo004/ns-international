@@ -10,14 +10,20 @@ const contactDetails = [
   {
     icon: Phone,
     label: "Phone",
-    value: "+977 98XXXXXXXX",
-    href: "tel:+97798XXXXXXXX",
+    value: "+977 984-9719360",
+    href: "tel:+9779849719360",
+  },
+  {
+    icon: MessageCircle,
+    label: "WhatsApp",
+    value: "+977 984-9719360",
+    href: "https://wa.me/9779849719360",
   },
   {
     icon: Mail,
     label: "Email",
-    value: "info@nsinternationalmachinery.com",
-    href: "mailto:info@nsinternationalmachinery.com",
+    value: "chaudharyshyam800@gmail.com ",
+    href: "mailto:chaudharyshyam800@gmail.com ",
   },
   {
     icon: MapPin,
@@ -76,6 +82,14 @@ export default function ContactInformation() {
               <a
                 key={detail.label}
                 href={detail.href}
+                target={
+                  detail.href.startsWith("http") ? "_blank" : undefined
+                }
+                rel={
+                  detail.href.startsWith("http")
+                    ? "noopener noreferrer"
+                    : undefined
+                }
                 className="flex items-start gap-4 rounded-md transition-colors hover:text-secondary"
               >
                 {content}
@@ -92,7 +106,7 @@ export default function ContactInformation() {
       </div>
 
       <a
-        href="https://wa.me/97798XXXXXXXX"
+        href="https://wa.me/9779849719360"
         target="_blank"
         rel="noopener noreferrer"
         className="mt-8 inline-flex items-center gap-2 rounded-md bg-accent px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-primary"

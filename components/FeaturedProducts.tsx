@@ -7,7 +7,6 @@ const products = [
     slug: "water-treatment-plant-ro",
     description:
       "Industrial reverse osmosis water treatment system designed for reliable and efficient water purification.",
-    price: "Rs. 850,000",
     image: "/products/water-treatment-plant.jpg",
   },
   {
@@ -16,7 +15,6 @@ const products = [
     slug: "water-bottle-filling-machine",
     description:
       "Efficient bottle filling equipment designed for commercial and industrial water bottling operations.",
-    price: "Rs. 650,000",
     image: "/products/water-bottle-filling-machine.jpg",
   },
   {
@@ -25,7 +23,6 @@ const products = [
     slug: "water-bottle-blowing-machine",
     description:
       "PET bottle blowing machinery for producing quality plastic bottles for water and beverage production.",
-    price: "Rs. 1,200,000",
     image: "/products/water-bottle-blowing-machine.jpg",
   },
   {
@@ -34,7 +31,6 @@ const products = [
     slug: "juice-plant",
     description:
       "Complete juice processing machinery for efficient beverage preparation and production.",
-    price: "Rs. 1,500,000",
     image: "/products/juice-plant.jpg",
   },
   {
@@ -43,7 +39,6 @@ const products = [
     slug: "cold-drink-plant",
     description:
       "Industrial beverage production equipment for preparing and processing carbonated soft drinks.",
-    price: "Rs. 1,800,000",
     image: "/products/cold-drink-plant.jpg",
   },
   {
@@ -52,7 +47,6 @@ const products = [
     slug: "wrapping-machine",
     description:
       "Industrial wrapping equipment for efficient and consistent packaging of products.",
-    price: "Rs. 450,000",
     image: "/products/wrapping-machine.jpg",
   },
   {
@@ -61,7 +55,6 @@ const products = [
     slug: "injection-moulding-machine",
     description:
       "Industrial plastic injection moulding machinery for manufacturing high-quality plastic components.",
-    price: "Rs. 2,000,000",
     image: "/products/injection-moulding-machine.jpg",
   },
 ];
@@ -127,15 +120,8 @@ export default function FeaturedProducts() {
                   {product.description}
                 </p>
 
-                {/* Price */}
-                <div className="mt-5 border-t border-border pt-4">
-                  <p className="text-xs font-medium uppercase tracking-wide text-muted">
-                    Estimated Price
-                  </p>
-
-                  <p className="mt-1 text-lg font-bold text-foreground">
-                    {product.price}
-                  </p>
+                <div className="mt-5 border-t border-border pt-4 text-sm font-medium text-muted">
+                  1 Year Warranty
                 </div>
 
                 {/* View Product */}
